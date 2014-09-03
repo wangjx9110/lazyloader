@@ -1,0 +1,25 @@
+{
+  "name": "lazyloader",
+  "version": "0.0.2",
+  "homepage": "https://github.com/wangjx9110/lazyloader",
+  "authors": [
+    "冬玉 <juexin.wjx@alibaba-inc.com>"
+  ],
+  "description": "a image lazyload tool (support DOM scroll and css3 transform)",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "lazyload",
+    "img"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
