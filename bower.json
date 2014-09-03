@@ -6,7 +6,7 @@
     "冬玉 <juexin.wjx@alibaba-inc.com>"
   ],
   "description": "a image lazyload tool (support DOM scroll and css3 transform)",
-  "main": "build/lazyloader-0.0.2.min.js",
+  "main": "src/lazyloader.js",
   "moduleType": [
     "amd",
     "globals"
