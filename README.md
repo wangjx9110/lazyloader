@@ -96,7 +96,8 @@ __2、使用方法及各配置项的含义如下__
         ```
     * options 属性
     
-        * `enable`          : {Boolean}   默认值: true.    指定组件在构建后是否启用
+        * `enable`          : {Boolean}   
+          默认值: true.    指定组件在构建后是否启用
         * `targetClass`     : {String}    默认值: 'lazy'.  指定懒加载元素的识别 class
         * `loadingClass`    : {String}    默认值: ''.      指定懒加载元素在加载状态时添加的 class
         * `loadedClass`     : {String}    默认值: ''.      指定懒加载元素在加载完成时添加的 class
