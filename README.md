@@ -53,7 +53,6 @@ __开放检测函数__
 __1. bower 支持, 不依赖其他组件或库__
 ```
 bower install image-lazyloader
-
 ```
 __2、使用方法及各配置项的含义如下__
 
