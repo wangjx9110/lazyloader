@@ -134,7 +134,7 @@ __2、使用方法及各配置项的含义如下__
         isEnable 方法用于查看组件状态, 返回值为 true (启用) / false (停用)
     
         * `sniffer`
-        
+
           ```javascript
             someElement.addEventListener('someEvent', function() {
               //...
@@ -143,3 +143,9 @@ __2、使用方法及各配置项的含义如下__
             }, false);
           ```
         由于无法预测用户使用什么方式来触发 transform 形式的滚动, 提供用户检测接口, 用户可根据需求调用, 以提高灵活性.
+
+  * DEMO [移动页面]
+    
+    [Scroll] http://m.laiwang.com/market/laiwang/thrones.php
+    
+    [CSS3 Transfrom] http://m.laiwang.com/market/laiwang/thrones-category.php
