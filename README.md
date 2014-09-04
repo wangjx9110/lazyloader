@@ -98,15 +98,24 @@ __2、使用方法及各配置项的含义如下__
     
         * `enable`          : {Boolean}   
           默认值: true.    指定组件在构建后是否启用
-        * `targetClass`     : {String}    默认值: 'lazy'.  指定懒加载元素的识别 class
-        * `loadingClass`    : {String}    默认值: ''.      指定懒加载元素在加载状态时添加的 class
-        * `loadedClass`     : {String}    默认值: ''.      指定懒加载元素在加载完成时添加的 class
-        * `placeholder`     : {String}    默认值: 2*2 大小的透明 png 图片. 指定在元素未加载完成时懒加载元素使用的图片, 用于过渡.
-        * `preLoadDistance` : {Number}    默认值: 0.       指定在距离加载区域多少像素时, 懒加载元素进行加载.
-        * `itemstart`       : {Function}  默认值: 无.      指定当懒加载元素进行加载时执行的函数, 懒加载元素会作为参数传递到回调函数中.
-        * `itemloaded`      : {Function}  默认值: 无.      指定当懒加载元素完成加载时执行的函数, 懒加载元素会作为参数传递到回调函数中.
-        * `start`           : {Function}  默认值: 无.      指定组件启用时的回调函数.
-        * `stop`            : {Function}  默认值: 无.      指定组件停用时的回调函数.
+        * `targetClass`     : {String}    
+          默认值: 'lazy'.  指定懒加载元素的识别 class
+        * `loadingClass`    : {String}    
+          默认值: ''.      指定懒加载元素在加载状态时添加的 class
+        * `loadedClass`     : {String}    
+          默认值: ''.      指定懒加载元素在加载完成时添加的 class
+        * `placeholder`     : {String}    
+          默认值: 2*2 大小的透明 png 图片. 指定在元素未加载完成时懒加载元素使用的图片, 用于过渡.
+        * `preLoadDistance` : {Number}    
+          默认值: 0.       指定在距离加载区域多少像素时, 懒加载元素进行加载.
+        * `itemstart`       : {Function}  
+          默认值: 无.      指定当懒加载元素进行加载时执行的函数, 懒加载元素会作为参数传递到回调函数中.
+        * `itemloaded`      : {Function}  
+          默认值: 无.      指定当懒加载元素完成加载时执行的函数, 懒加载元素会作为参数传递到回调函数中.
+        * `start`           : {Function}  
+          默认值: 无.      指定组件启用时的回调函数.
+        * `stop`            : {Function}  
+          默认值: 无.      指定组件停用时的回调函数.
 
     * 方法
 
