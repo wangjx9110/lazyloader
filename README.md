@@ -121,25 +121,25 @@ __2、使用方法及各配置项的含义如下__
 
         * `enable`
 
-        ```javascript
-          lazyloader.enable({Boolean});
-        ```
+          ```javascript
+            lazyloader.enable({Boolean});
+          ```
         enable 方法用于控制组件传统滚动方式的启用和停用. 传递参数为布尔值, true 为启用, false 为停用
     
         * `isEnable`
 
-        ```javascript
-          lazyloader.isEnable();
-        ```
+          ```javascript
+            lazyloader.isEnable();
+          ```
         isEnable 方法用于查看组件状态, 返回值为 true (启用) / false (停用)
     
         * `sniffer`
         
-        ```javascript
-          someElement.addEventListener('someEvent', function() {
-            //...
-            lazyloader.sniffer();
-            //...
-          }, false);
-        ```
+          ```javascript
+            someElement.addEventListener('someEvent', function() {
+              //...
+              lazyloader.sniffer();
+              //...
+            }, false);
+          ```
         由于无法预测用户使用什么方式来触发 transform 形式的滚动, 提供用户检测接口, 用户可根据需求调用, 以提高灵活性.
