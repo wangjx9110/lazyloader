@@ -1,0 +1,26 @@
+{
+  "name": "${name}",
+  "version": "${version}",
+  "homepage": "${homepage}",
+  "authors": [
+    "${authors}"
+  ],
+  "description": "${description}",
+  "main": "${main}",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "lazyload",
+    "img"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

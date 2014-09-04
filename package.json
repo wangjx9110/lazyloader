@@ -2,8 +2,9 @@
   "name": "lazyloader",
   "description": "a image lazyload tool (support DOM scroll and css3 transform)",
   "version": "0.0.2",
-  "author": "dongyu",
+  "author": "冬玉",
   "email": "juexin.wjx@alibaba-inc.com",
+  "homepage": "https://github.com/wangjx9110/lazyloader",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
